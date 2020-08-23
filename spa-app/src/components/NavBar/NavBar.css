@@ -1,0 +1,42 @@
+header {
+    background: rgb(4, 217, 255);
+    box-shadow: black 1px 0px 3px;
+}
+
+.nav {
+    display: block;
+    width: 100%;
+    text-align: end;
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav-ul {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    display: inline-block;
+    padding: 0 30px;
+}
+
+.nav-item p {
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.nav-item p:hover {
+    border-bottom: 1px solid white;
+}
+
+.logo {
+    width: 100px;
+    cursor: pointer;
+}

@@ -1,0 +1,29 @@
+.about-us-div{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+}
+
+.hobby-title{
+    text-align: center;
+    margin: 50px 0;
+}
+
+.hobby-box{
+    width: 40%;
+    display: inline-block;
+    text-align: center;
+    padding: 30px;
+    border: 1px solid white;
+    border-radius: 2%;
+    margin-bottom: 10px;
+    height: 200px;
+}
+
+
+.hobby{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+}
