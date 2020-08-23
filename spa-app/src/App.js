@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
 import { Route, Switch, BrowserRouter } from 'react-router-dom';
-import Home from '../components/Home/Home';
-import AboutUs from '../components/AboutUs/AboutUs';
-import Contacts from '../components/Contacts/Contacts';
+import Home from './components/Home/Home';
+import AboutUs from './components/AboutUs/AboutUs';
+import Contacts from './components/Contacts/Contacts';
 
 const App = () => {
   return (
